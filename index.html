@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <div class="container">
+        <div class="search-box">
+            <i><box-icon color="white" type='solid' name='map'></box-icon></i>
+            <input placeholder="Enter Your Location" type="text">
+            <button><box-icon color="white" name='search'></box-icon></button>
+        </div>
+        <p class="city-hide">city hide</p>
+        <div class="weather-box">
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weather">
+                        <img src="">
+                        <p class="tompurature">0<span>°C</span></p>
+                        <p class="description">Broken Clouds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i><box-icon size="56px" color ="white" name='water'></box-icon></i>
+                <div class="text">
+                    <div class="info-humidity">
+                        <span></span>
+                    </div>
+                    <p>humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i><box-icon size="56px" name='wind' color='white' ></box-icon></i>
+                <div class="text">
+                    <div class="info-wind">
+                        <span></span>
+                    </div>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div class="not-found">
+            <div class="box">
+                <img src="/assets/images/404.png" alt="">
+                <p>Oops! Location not found!</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="/node_modules/axios/dist/axios.js"></script>
+    <script src="/node_modules/boxicons/dist/boxicons.js"></script>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
